@@ -8,12 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 
-/**
- * @program: backup
- * @description: for result
- * @author: zxy
- * @create: 2021-04-06 15:12
- **/
 public class ResultInterCepTer implements HandlerInterceptor {
 
     //标记

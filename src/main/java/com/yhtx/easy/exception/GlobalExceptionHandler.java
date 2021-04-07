@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @program: backup
- * @description: for ExceptionHandler
- * @author: zxy
- * @create: 2021-04-06 16:16
- **/
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

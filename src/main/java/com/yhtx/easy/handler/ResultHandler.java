@@ -15,12 +15,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @program: backup
- * @description: for handler
- * @author: zxy
- * @create: 2021-04-06 15:24
- **/
 @ControllerAdvice
 public class ResultHandler implements ResponseBodyAdvice<Object> {
 
