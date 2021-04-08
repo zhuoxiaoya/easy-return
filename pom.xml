@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.houlangmark</groupId>
     <artifactId>easy-return</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <build>
         <plugins>
             <plugin>
@@ -68,11 +68,17 @@
     </profiles>
 
     <distributionManagement>
+        <!--<repository>-->
+            <!--<id>sonatype-nexus-staging</id>-->
+            <!--&lt;!&ndash; 这个名称自己定义 &ndash;&gt;-->
+            <!--<name>staging</name>-->
+            <!--<url>https://s01.oss.sonatype.org/content/groups/staging/</url>-->
+        <!--</repository>-->
         <repository>
-            <id>sonatype-nexus-staging</id>
+            <id>sonatype-nexus-releases</id>
             <!-- 这个名称自己定义 -->
             <name>staging</name>
-            <url>https://s01.oss.sonatype.org/content/groups/staging/</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
